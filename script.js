@@ -18,7 +18,7 @@ const gen_comp_choice = () => {
 
 const draw_game = () => {
   console.log("Game Draw");
-  message.innerText = "Game Draw.Play Again!";
+  message.innerText = "Game Draw. Play Again!";
   message.style.backgroundColor = "blue";
   
 };

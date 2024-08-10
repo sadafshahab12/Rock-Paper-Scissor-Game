@@ -4,29 +4,34 @@
   box-sizing: border-box;
   font-family: system-ui;
 }
+body{
+  height: 100vh;
+  width: 100vw;
+}
+.container{
+min-height: 100vh;
+min-width: 10rem;
 
-html {
-  font-size: 62.5%;
 }
 h1 {
   background-color: tomato;
   color: #fff;
-  line-height: 10rem;
+  line-height: 6rem;
   text-align: center;
-  height: 10rem;
-  font-size: 5rem;
+  height: 6rem;
+  font-size: 3rem;
 }
 .choices {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
-  margin-top: 5rem;
+  gap: 4rem;
+  margin-top: 3rem;
 }
 
 .choice {
-  height: 11rem;
-  width: 11rem;
+  height: 9rem;
+  width: 9rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,8 +46,8 @@ h1 {
  opacity: 0.5;
 }
 img {
-  height: 10rem;
-  width: 10rem;
+  height: 8rem;
+  width: 8rem;
   object-fit: cover;
 }
 
@@ -51,27 +56,27 @@ img {
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-  margin-top: 7rem;
+  margin-top: 2rem;
   text-align: center;
-  gap: 10rem;
+  gap: 8rem;
 }
 
 #user-score,
 #comp-score {
-  font-size: 4rem;
-  margin-bottom: 2rem;
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 .msg-container {
-  margin-top: 7rem;
+  margin-top: 3rem;
   text-align: center;
 }
 #msg {
   background-color: darkred;
   color: #fff;
   display: inline;
-  font-size: 3rem;
+  font-size: 2rem;
   border-radius: 2rem;
-  padding: 2rem;
+  padding: 1rem;
   letter-spacing: 0.25rem;
   word-spacing: 1rem;
   font-style: italic;

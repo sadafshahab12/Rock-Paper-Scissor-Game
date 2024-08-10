@@ -1,53 +1,47 @@
 @media only screen and (max-width: 220px) {
-    html,
-    body {
-      width: 32rem;
-    }
-    html{
-      font-size: 62.5%;
-    }
-    h1 {
-      line-height: 5rem;
-      height: 5rem;
-      width: 32rem;
-      font-size: 2.5rem;
-    }
-    .choice {
-      height: 8rem;
-      width: 8rem;
-    }
-    .choices {
-      gap: 1;
-      margin-top: 4rem;
-      width: 32rem;
-    }
-    img {
-      height: 8rem;
-      width: 8rem;
-    }
-    .score-board {
-      width: 32rem;
-      margin-top: 5rem;
-      gap: 3rem;
-      font-size: 2rem;
-    }
-  
-    #user-score,
-    #comp-score {
-      font-size: 2rem;
-      margin-bottom: 2rem;
-    }
-    .msg-container {
-      margin-top: 5rem;
-      display: flex;
-      justify-content: center;
-      width: 32rem;
-    }
-    #msg {
-      font-size: 1.5rem;
-      padding: 1.25rem;
-      letter-spacing: 0.1rem;
-      word-spacing: 0.25rem;
-    }
+  h1 {
+    line-height: 3rem;
+    height: 3rem;
+    font-size: 1.25rem;
   }
-  
+  .choices {
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .choice {
+    height: 4rem;
+    width: 4rem;
+  }
+  .choice:active {
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  img {
+    height: 3rem;
+    width: 3rem;
+    object-fit: cover;
+  }
+
+  .score-board {
+    font-size: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  #user-score,
+  #comp-score {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .msg-container {
+    margin-top: 2rem;
+  }
+  #msg {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+    letter-spacing: 0;
+    word-spacing: 0.25rem;
+  }
+}

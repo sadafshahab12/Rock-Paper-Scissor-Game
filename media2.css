@@ -1,47 +1,55 @@
 @media only screen and (max-width: 220px) {
   h1 {
-    line-height: 3rem;
-    height: 3rem;
-    font-size: 1.25rem;
+    line-height: 15vmin;
+    height: 15vmin;
+    font-size: 8vmin;
   }
+
   .choices {
-    gap: 0.5rem;
-    margin-top: 1.5rem;
+    gap: 20vmin;
+    margin-top: 3rem;
   }
 
   .choice {
-    height: 4rem;
-    width: 4rem;
+    height: 10vmin;
+    width: 10vmin;
   }
+
+  .choice:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
   .choice:active {
     cursor: pointer;
     opacity: 0.5;
   }
+
   img {
-    height: 3rem;
-    width: 3rem;
-    object-fit: cover;
+    height: 23vmin;
+    width: 23vmin;
   }
 
   .score-board {
-    font-size: 1rem;
-    margin-top: 2rem;
-    text-align: center;
-    gap: 1rem;
+    font-size: 6vmin;
+    margin-top: 4rem;
+    gap: 15vmin;
   }
 
   #user-score,
   #comp-score {
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
+    font-size: 7vmin;
   }
+
   .msg-container {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
+
   #msg {
-    padding: 0.5rem 0.75rem;
-    font-size: 0.75rem;
-    letter-spacing: 0;
-    word-spacing: 0.25rem;
+    font-weight: bold;
+    font-size: 4vmin;
+    padding: 0.5rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.1rem;
   }
 }

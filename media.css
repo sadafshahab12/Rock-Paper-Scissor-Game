@@ -1,52 +1,55 @@
 @media only screen and (max-width: 320px) {
+  h1 {
+    line-height: 15vmin;
+    height: 15vmin;
+    font-size: 8vmin;
+  }
 
+  .choices {
+    gap: 20vmin;
+    margin-top: 3rem;
+  }
 
-h1 {
-  line-height: 4rem;
-  height: 4rem;
-  font-size: 1.75rem;
-}
-.choices {
-  gap: 1rem;
-  margin-top: 2rem;
-}
+  .choice {
+    height: 10vmin;
+    width: 10vmin;
+  }
 
-.choice {
-  height: 5rem;
-  width: 5rem;
-}
-.choice:hover {
-  cursor: pointer;
-  opacity: 0.8;
-}
-.choice:active {
-  cursor: pointer;
-  opacity: 0.5;
-}
-img {
-  height: 4rem;
-  width: 4rem;
-  object-fit: cover;
-}
+  .choice:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
 
-.score-board {
-  font-size: 1.25rem;
-  margin-top: 1rem;
-  text-align: center;
-  gap: 2rem;
-}
+  .choice:active {
+    cursor: pointer;
+    opacity: 0.5;
+  }
 
-#user-score,
-#comp-score {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-.msg-container {
-  margin-top: 3rem;
-}
-#msg {
-  font-size: 1rem;
-  letter-spacing: 0;
-  word-spacing: 0.5rem;
-}
+  img {
+    height: 23vmin;
+    width: 23vmin;
+  }
+
+  .score-board {
+    font-size: 6vmin;
+    margin-top: 4rem;
+    gap: 15vmin;
+  }
+
+  #user-score,
+  #comp-score {
+    font-size: 7vmin;
+  }
+
+  .msg-container {
+    margin-top: 3rem;
+  }
+
+  #msg {
+    font-weight: bold;
+    font-size: 4vmin;
+    padding: 0.5rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.1rem;
+  }
 }

@@ -4,34 +4,31 @@
   box-sizing: border-box;
   font-family: system-ui;
 }
-body{
+body {
   height: 100vh;
-  width: 100vw;
 }
-.container{
-min-height: 100vh;
-min-width: 10rem;
-
+.container {
+  min-height: 100vh;
 }
 h1 {
   background-color: tomato;
   color: #fff;
-  line-height: 6rem;
+  line-height: 18vmin;
   text-align: center;
-  height: 6rem;
-  font-size: 3rem;
+  height: 18vmin;
+  font-size: 9vmin;
 }
 .choices {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
-  margin-top: 3rem;
+  gap: 25vmin;
+  margin-top: 5rem;
 }
 
 .choice {
-  height: 9rem;
-  width: 9rem;
+  height: 10vmin;
+  width: 10vmin;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,15 +36,15 @@ h1 {
 }
 .choice:hover {
   cursor: pointer;
- opacity: 0.8;
+  opacity: 0.8;
 }
 .choice:active {
   cursor: pointer;
- opacity: 0.5;
+  opacity: 0.5;
 }
 img {
-  height: 8rem;
-  width: 8rem;
+  height: 23vmin;
+  width: 23vmin;
   object-fit: cover;
 }
 
@@ -55,26 +52,26 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
-  margin-top: 2rem;
+  font-size: 5vmin;
+  margin-top: 6rem;
   text-align: center;
-  gap: 8rem;
+  gap: 15vmin;
 }
 
 #user-score,
 #comp-score {
-  font-size: 3rem;
+  font-size: 5vmin;
   margin-bottom: 1rem;
 }
 .msg-container {
-  margin-top: 3rem;
+  margin-top: 5rem;
   text-align: center;
 }
 #msg {
   background-color: darkred;
   color: #fff;
   display: inline;
-  font-size: 2rem;
+  font-size: 4vmin;
   border-radius: 2rem;
   padding: 1rem;
   letter-spacing: 0.25rem;

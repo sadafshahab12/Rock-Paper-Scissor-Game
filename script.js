@@ -34,7 +34,7 @@ const show_winner = (user_win, user_choice, comp_choice) => {
     comp_score++;
     comp_win_score.innerText = comp_score;
     // console.log("you lose!");
-    message.innerText = `You lose!${comp_choice} beats your ${user_choice}`;
+    message.innerText = `You lose! ${comp_choice} beats your ${user_choice}`;
     message.style.backgroundColor = "red";
   }
 };

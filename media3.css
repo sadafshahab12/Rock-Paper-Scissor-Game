@@ -39,8 +39,10 @@
       margin-top: 2rem;
     }
     #msg {
+      font-weight: bold;
+      font-size: 3.75vmin;
       padding: 0.5rem;
-      font-size: 0.65rem;
+      letter-spacing: 0;
       word-spacing: 0.1rem;
     }
   }

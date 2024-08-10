@@ -71,8 +71,9 @@ img {
   background-color: darkred;
   color: #fff;
   display: inline;
-  font-size: 4vmin;
+  font-size: 6vmin;
   border-radius: 2rem;
   padding: 1rem;
   font-style: italic;
+  
 }
